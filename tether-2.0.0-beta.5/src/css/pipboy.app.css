@@ -104,8 +104,10 @@ ul > li.nav-item > button.nav-link, ul > li.nav-item > button.nav-link.active{
   margin: auto;
   display: block;
   position: relative;
-  max-height: 300px;
-  margin-top: -84px;
+  /* max-height: 1000px; */
+  height: 300px;
+  margin-top: -125px;
+  margin-left: 460px;
   filter: grayscale(1) sepia(100%) hue-rotate(50deg) saturate(7) brightness(1) contrast(2);
 }
 
@@ -224,4 +226,16 @@ ul > li.nav-item > button.nav-link, ul > li.nav-item > button.nav-link.active{
   height: 7px;
   width: 60px;
   margin: 44px 400px;
+  margin-top: 100px;
+}
+
+.progress-level-c{
+  background: #1bd014;
+  height: 7px;
+  width: 60px;
+  margin: 28px 364px;
+  /* bottom: 0px; */
+  /* top: 0; */
+  margin-top: 100px;
+  background: #16ea0d;
 }
