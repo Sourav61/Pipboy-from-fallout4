@@ -5,7 +5,7 @@
 
 body {
   font-family: Pipboy, sans-serif;
-  color: #16ea0d;
+  color: #14fe17;
   background-color: #272b23;
 }
 
@@ -35,7 +35,7 @@ body::after{
   text-align: center;
   width: 78%;
   margin: auto;
-  color: #16ea0d !important;
+  color: #14fe17 !important;
   font-size: 32px;
   line-height: 22px;
   padding-bottom: 0px;
@@ -57,7 +57,7 @@ body::after{
   position: absolute;
   display: block;
   z-index: 5000;
-  background: #16ea0d;
+  background: #14fe17;
   bottom: -8px;
 }
 
@@ -70,7 +70,7 @@ body::after{
 }
 
 ul > li.nav-item > button.nav-link, ul > li.nav-item > button.nav-link.active{
-  color: #16ea0d !important;
+  color: #14fe17 !important;
   background: #272b23;
   border-color: #272b23;
   font-size: 32px;
@@ -80,7 +80,7 @@ ul > li.nav-item > button.nav-link, ul > li.nav-item > button.nav-link.active{
 }
 
 /* ul > li.nav-item > a.nav-link, ul > li.nav-item > a.nav-link.active{
-  color: #16ea0d !important;
+  color: #14fe17 !important;
   font-size: 32px;
   line-height: 22px;
   padding-bottom: 0px;
@@ -188,7 +188,7 @@ ul > li.nav-item > button.nav-link, ul > li.nav-item > button.nav-link.active{
 
 .level-progress-indicator{
   height: 8px;
-  background: #16ea0d;
+  background: #14fe17;
   position: relative;
   width: 70%;
 }
@@ -226,7 +226,7 @@ ul > li.nav-item > button.nav-link, ul > li.nav-item > button.nav-link.active{
   margin-top: -3px;
   margin-left: -4px;
   height: 7px;
-  background: #16ea0d;
+  background: #14fe17;
   position: relative;
   width: 32%;
 }
@@ -244,7 +244,7 @@ ul > li.nav-item > button.nav-link, ul > li.nav-item > button.nav-link.active{
   margin-top: -3px;
   margin-left: -4px;
   height: 7px;
-  background: #16ea0d;
+  background: #14fe17;
   position: relative;
   width: 80%;
 }
@@ -263,7 +263,7 @@ ul > li.nav-item > button.nav-link, ul > li.nav-item > button.nav-link.active{
   margin-top: -1px;
   margin-left: 0px;
   height: 7px;
-  background: #16ea0d;
+  background: #14fe17;
   position: relative;
   width: 71%;
 }
@@ -281,7 +281,7 @@ ul > li.nav-item > button.nav-link, ul > li.nav-item > button.nav-link.active{
   margin-top: -1px;
   margin-left: 0px;
   height: 7px;
-  background: #16ea0d;
+  background: #14fe17;
   position: relative;
   width: 93%;
 }
@@ -299,7 +299,7 @@ ul > li.nav-item > button.nav-link, ul > li.nav-item > button.nav-link.active{
   margin-top: -1px;
   margin-left: 0px;
   height: 7px;
-  background: #16ea0d;
+  background: #14fe17;
   position: relative;
   width: 93%;
 }
@@ -317,7 +317,7 @@ ul > li.nav-item > button.nav-link, ul > li.nav-item > button.nav-link.active{
   margin-top: -1px;
   margin-left: 0px;
   height: 7px;
-  background: #16ea0d;
+  background: #14fe17;
   position: relative;
   width: 40%;
 }
@@ -334,4 +334,43 @@ ul > li.nav-item > button.nav-link, ul > li.nav-item > button.nav-link.active{
 
 .stat-numbers .col-1.transparent, .stat-numbers .col-2.transparent{
   background: transparent;
+}
+
+.stat-numbers img{
+  width: 50px;
+  margin-top: 4px;
+  filter: grayscale(1) brightness(200) contrast(0) sepia(100%) hue-rotate(45deg) saturate(20);
+}
+
+.stat-numbers img.sm-image{
+  width: 20px;
+  margin-left: -3px;
+}
+
+.stat-numbers img.helmet-icon{
+  padding-top: 5px;
+  width: 120%;
+  margin-left: -2px;
+}
+
+.item-list {
+  float: left;
+  padding: 0px;
+  list-style: none;
+  margin: 0px;
+}
+
+.item-list li a {
+  display: block;
+  width: 300px;
+  padding: 5px 10px;
+  border-radius: 2px;
+  color: #14fe17;
+  text-decoration: none;
+}
+
+.item-list li a:hover{
+  text-decoration: none;
+  background: #14fe17;
+  color: #272b23;
 }
