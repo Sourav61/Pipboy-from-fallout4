@@ -1,5 +1,12 @@
 $(document).ready(function(){
+    $('#slider').cycle({ 
+        fx:     'scrollHorz', 
+        speed:  'fast', 
 
+        next:   '#next', 
+        prev:   '#prev' 
+    });  
+});
   var weapons = [
       {
         "name": "44_pistol",
