@@ -6,7 +6,7 @@ $(document).ready(function(){
         next:   '#next', 
         prev:   '#prev' 
     });  
-});
+
   var weapons = [
       {
         "name": "44_pistol",
